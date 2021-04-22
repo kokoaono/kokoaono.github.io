@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Koko ono</title>
-<meta charset="UTF-8">
-<link href="../styles/main.css" rel="stylesheet" type="text/css">
+  <head>
+    <title>Koko Ono</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
 </head>
 
-body{background-color: lightblue;
-}
+body{background-color: lightblue;}
 
-h1{ text-align: center;
-
-}
-h2{color: purple; font-size: larger; font-family: cursive; background-color: white;
-
-
-}
+h1{ text-align: center;}
+h2{color: purple; font-size: larger; font-family: cursive; background-color: white;}
