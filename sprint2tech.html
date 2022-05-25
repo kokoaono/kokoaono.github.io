@@ -2,66 +2,48 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Technical Blog</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <title>Margin/Padding/Border</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <div class="buttons">
-    <a class="button is-primary" href="https://kokoaono.github.io">HOME</a>
-    <a class="button is-primary" href="https://kokoaono.github.io/blog/Aboutme.html">About me</a>
-    <a class="button is-primary" href="https://kokoaono.github.io/blog/cultural1.html">Identity, Values and Strengths</a>
-    <a class="button is-primary" href="https://kokoaono.github.io/blog/cultural2.html">Learning Plan</a>
-    
-    <div class="dropdown is-hoverable">
-      <div class="dropdown-trigger">
-        <button class="button is-primary" aria-haspopup="true" aria-controls="dropdown-menu4">
-          <span>BLOG</span>
-          <span class="icon is-small">
-            <i class="fas fa-angle-down" aria-hidden="true"></i>
-          </span>
-        </button>
-      </div>
-      <div class="dropdown-menu" id="dropdown-menu4" role="menu">
-        <div class="dropdown-content">
-          <div class="dropdown-item">
-            <a href="https://kokoaono.github.io/blog/sprint2tech.html">Sprint2 Tech</a><br>
-            <a href="https://kokoaono.github.io/blog/sprint3tech.html">Sprint3 Tech JavaScript, HTML, CSS</a><br>
-            <a href="https://kokoaono.github.io/blog/sprint4tech.html">Sprint4 Tech Problem Solving</a><br>
-           <a href="https://kokoaono.github.io/blog/cultural3.html">Emotional Intelligence</a><br>
-           <a href="https://kokoaono.github.io/blog/cultural4.html">Growth Mindset</a><br>
-           <a href="https://kokoaono.github.io/blog/cultural5.html">Overview core skills</a><br>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <h3 class="subtitle has-text-info has-text-weight-bold has-text-centered is-spaced"> What is the difference between Margin, Border, and Padding?</h3> 
-    <div class="block px-6">
+  <header>
+    <h1>CSS</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+  <h2> What is the difference between Margin, Border, and Padding?</h2> 
+    <div>
       <p>
-
-        <strong>Margin</strong> is the space around the content. This determines the space surrounding an element.<br>
-        Margins can be used to move an element’s position (left, right, top, bottom) on the webpage. For example, if you have a piece of land and you want to build houses on it.<br>
+        <strong>Margin</strong> is the space around the content. This determines the space surrounding an element. 
+        Margins can be used to move an element&apos;s position (left, right, top, bottom) on the webpage.<br>
+        For example, if you have a piece of land and you want to build houses on it.
         You would consider where each house will be built and how far away from each other.
         <br>The space between houses is called “whitespace”. Whitespace is crucial for creating webpages visually pleasant.<br>
+      </p>
+      <p>
         <strong>Padding</strong> on the other hand, creates space inside an element. An increased value of padding will create more space around the content.
         This, however, will not change the size of a content. Therefore, it is useful when you want to expand the clickable area such as buttons.<br>
-       <strong>Border</strong> is in between padding and margin. This can determine style and colour of an element’s border.
       </p>
-
-         <iframe class="has-ratio" width="640" height="360" src="Capture.PNG" frameborder="0" allowfullscreen></iframe>
-
-    </div> 
-
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <a>Created by <strong>Koko Ono</strong> 2021</a>
+      <p>
+        <strong>Border</strong> is in between padding and margin. This can determine style and colour of an element &apos;s border.
+      </p>
     </div>
-  </footer>  
-
-
-
-
+         <figure>
+           <img width="640" height="360" src="images/capture.PNG"></img>
+         </figure>
  </body>
+ <footer>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</footer>
 </html>

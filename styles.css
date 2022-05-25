@@ -6,9 +6,6 @@ a:link, a:visited{
     text-decoration: none;
     font-weight: bold;
 }
-a:hover{
-    color:green;
-}
 nav ul{
     list-style-type: none;
     padding: 0;
@@ -28,9 +25,6 @@ nav a:link, nav a:visited{
 nav a:hover{
     background-color: black;
 }
-img{
-    border-radius: 10%;
-}
 header{
     background-image: url("images/berries.jpeg");
     height: 100px;
@@ -49,7 +43,7 @@ footer nav a:link, footer nav a:visited{
 color: grey;
 text-decoration: none;
 display: block;
-width: 160px;
+width: 320px;
 text-align: center;
 background-color: white;
 }

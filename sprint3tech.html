@@ -2,58 +2,38 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Technical Blog</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <title>HTML and CSS</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <style>
+    #block1{
+      background-color: lightblue;
+    }
+    #block2{
+      background-color: lightgreen;
+    }
+    </style>
 </head>
 <body>
-  <div class="buttons">
-    <a class="button is-primary" href="https://kokoaono.github.io">HOME</a>
-    <a class="button is-primary" href="https://kokoaono.github.io/blog/Aboutme.html">About me</a>
-    <a class="button is-primary" href="https://kokoaono.github.io/blog/cultural1.html">Identity, Values and Strengths</a>
-    <a class="button is-primary" href="https://kokoaono.github.io/blog/cultural2.html">Learning Plan</a>
-    
-    <div class="dropdown is-hoverable">
-      <div class="dropdown-trigger">
-        <button class="button is-primary" aria-haspopup="true" aria-controls="dropdown-menu4">
-          <span>BLOG</span>
-          <span class="icon is-small">
-            <i class="fas fa-angle-down" aria-hidden="true"></i>
-          </span>
-        </button>
-      </div>
-      <div class="dropdown-menu" id="dropdown-menu4" role="menu">
-        <div class="dropdown-content">
-          <div class="dropdown-item">
-            <a href="https://kokoaono.github.io/blog/sprint2tech.html">Sprint2 Tech</a><br>
-            <a href="https://kokoaono.github.io/blog/sprint3tech.html">Sprint3 Tech JavaScript, HTML, CSS</a><br>
-            <a href="https://kokoaono.github.io/blog/sprint4tech.html">Sprint4 Tech Problem Solving</a><br>
-            <a href="https://kokoaono.github.io/blog/cultural3.html">Emotional Intelligence</a><br>
-            <a href="https://kokoaono.github.io/blog/cultural4.html">Growth Mindset</a><br>
-            <a href="https://kokoaono.github.io/blog/cultural5.html">Overview core skills</a><br>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <h3 class="subtitle has-text-info has-text-weight-bold has-text-centered is-spaced">A whole lot about JavaScript, HTML, and CSS.</h3>
-
-  <div class="block px-6">
-    <p>
-      
-        <li class="has-text-weight-bold">Describe the differences between HTML and CSS.</li>
-        HTML defines structure of a web page and CSS which works along with HTML design web pages.<br>
-        HTML is like a builder who builds houses, and CSS is the one to make the house presentable and unique with colours and styles.
-
-    </p>
-  </div>
-
-  <div class="block px-6">
+  <header>
+    <h1>HTML and CSS</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header> 
+  <h2> Describe the differences between HTML and CSS</h2>
+  <div id="block1">
       <p>
-
-        <li class="has-text-weight-bold">Explain control flow and loops using an example process from everyday life.</li>
+        HTML defines structure of a web page. CSS which works along with HTML design web pages.<br>
+        HTML is like a builder who builds houses, and CSS is the one to make the house presentable and unique with colours and styles.
+      </p>
+  </div>
+  <div id="block2">
+      <p>
+        Explain control flow and loops using an example process from everyday life.
         Control flow is the order in which the instructions in the program are followed. For example, you are at the supermarket with a list.<br>
         On the list there are apple, milk and ice cream.
         You put what you need in the basket and head out to checkout. This is control flow. You follow the list of stuff and move onto next.<br><br>
@@ -62,58 +42,34 @@
         Loops are when at the supermarket for the purpose of getting ingredients( This is the condition), you are not going to head to checkout or skip an item and walk out of supermarket.<br>
         You will make sure the list is ticked off before proceed to checkout.<br>
         This is the purpose of the loops in programming. Until the list is ticked off next action is withheld
-
-
       </p>
   </div>
-    
-    <div class="block px-6">
+  <div>
       <p>
-        <li class="has-text-weight-bold">Describe what the DOM is and an example of how you might interact with it.</li>
-        The Document Object Model (DOM) is a programming interface for HTML and XML documents.<br>
-        It represents documents as nodes and objects in a tree structure so the programs can access documents and manipulate them.<br>
-        This hierarchical structure is called the DOM.<br><br>
-        Every element in a document is a part of The DOM that allows document to be manipulated, modified with JavaScript.<br>
-        For example, “querySelectorAll” returns a list of all "p" elements in the documents. Therefore, add elements, remove them and modify attributes are possible and will be shown in the browser.<br>
-
-        <imag src="TheDOM.PNG" alt="the dom"></imag>
-
-      </p>
-    </div>
-
-    <div class="block px-6">
-      <p>
-        <li class="has-text-weight-bold">Explain the difference between accessing data from arrays and objects.</li>
+        Explain the difference between accessing data from arrays and objects.
         Objects represent “a thing” in the code. Anything made up or defined by a set of characteristics are called properties which consist of a “key” and a “value”.<br>
         Objects can be accessed by using either “dot” or “square bracket” notation.<br>
         Arrays are used to create and store multiple items in a single variable. These are useful as items can be accessed by their numerical position in the list.<br>
         However, first item in an array has an index of “0” then second item as “1” and so on.
         Items can be added and removed from the beginning or end of an array by using “push()”, “pop()”, “unshift()” and “shift()”.
-
       </p>
-
     </div>
-
-    <div class="block px-6">
+    <div>
       <p>
-        <li class="has-text-weight-bold">Explain what functions are and why they are useful.</li>
+        Explain what functions are and why they are useful.
         Functions group statements together and make code reusable which means that it can be called multiple times from within the program.<br>
         Minimising the errors, save time and reduce amount of code written from scratch and tested.
         Functions also give extensibility when extending a program and allow to modify changes in one place and be effective.
-      
       </p>
-
-
-
-
-
-    </div>
-
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <a>Created by <strong>Koko Ono</strong> 2021</a>
-      </div>
-    </footer>  
-  
+    </div>  
    </body>
+   <footer>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+   </footer>
    </html>
