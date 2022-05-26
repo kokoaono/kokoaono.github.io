@@ -13,8 +13,17 @@
       a:hover{
        color: green;
       }
-      h2{
+      h2, h3{
         color:violet;
+      }
+      div{
+        margin: 20px;
+        padding: 20px 10px;
+      }
+      .block{
+        width: 40%;
+        margin: 2%;
+        background-color: lightgoldenrodyellow;
       }
     </style>
   </head>
@@ -30,18 +39,25 @@
         </ul>
       </nav>
     </header>
-    <div>
+    <div id="parent-block">
       <h2>Hello! Welcome to my Blog!</h2>
       <p>
-        This page is to showcase what I have learnt about HTML, CSS and Techinical skills as I move along.<br/>
+        This blog is to showcase my learning journey of HTML, CSS and Techinical skills as I move along.<br/>
       </p>
     </div>
-    <div>
+    <div class="block">
       <h3>Topics</h3>
       <ul>
-        <li><a href="sprint2tech.html">What is margin, padding and border?</a></li>
         <li><a href="sprint3tech.html">Describe HTML and CSS</a></li>
+        <li><a href="sprint2tech.html">What is margin, padding and border?</a></li>
         <li><a href="dom.html">What is DOM?</a></li>
+      </ul>
+    </div>
+    <div class="block">
+      <h3>Projects</h3>
+      <ul>
+        <li><a href="https://github.com/kokoaono/mpi-temp" target="_blank">Temperature record</a></li>
+        <li><a href="https://github.com/kokoaono/expensify-app" target="_blank">Expensify-App</a></li>
       </ul>
     </div>
   </body>

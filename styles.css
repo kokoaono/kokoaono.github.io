@@ -1,6 +1,7 @@
 body{
     margin: 0 auto;
     width: 960px;
+    margin:0 auto;
 }
 a:link, a:visited{
     text-decoration: none;
@@ -49,4 +50,9 @@ background-color: white;
 }
 footer nav a:hover{
     color: black;
+}
+.photo-myself{
+    float: right;
+    width: 280px;
+    margin-left: 500px;
 }
